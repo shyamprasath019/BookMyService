@@ -1,0 +1,49 @@
+/* Hero Section Styles */
+.heroContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-left: 176px;
+  margin-right: 197px;
+}
+
+.heroImage {
+  width: 460px;
+  height: 360px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  margin-right: 32px;
+}
+
+.heroContent {
+  width: 420px;
+}
+
+.heroTitle {
+  color: #0c161c;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.heroSubtitle {
+  color: #0c161c;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.getStartedButton {
+  background-color: #2b99e2;
+  /* border-radius: 12px; */
+  /* padding: 12px 20px; */
+  text-decoration: none;
+  color: #f7f9f9;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.getStartedButton:hover {
+  background-color: #1e7bb8;
+}

@@ -1,0 +1,21 @@
+/* About Section Styles */
+.aboutContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.aboutText {
+  color: #000000;
+  font-size: 14px;
+  margin-top: 24px;
+  flex: 1;
+  line-height: 1.6;
+}
+
+.aboutImage {
+  width: 311px;
+  height: 324px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}

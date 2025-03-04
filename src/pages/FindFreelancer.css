@@ -1,0 +1,30 @@
+.find-freelancers-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.apply-filters-button {
+  background-color: #4a90e2;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.freelancer-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+}

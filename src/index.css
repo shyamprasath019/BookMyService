@@ -1,0 +1,145 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f9f9;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header Styles */
+.navBar {
+  display: flex;
+  align-items: center;
+  padding: 12px 42px;
+  margin-bottom: 82px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navTitle {
+  color: #0c161c;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 4px;
+  flex: 1;
+}
+
+.navLink {
+  color: #0c161c;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 38px;
+  text-decoration: none;
+}
+
+.loginButton {
+  width: 84px;
+  background-color: #2b99e2;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.loginButtonText {
+  color: #f7f9f9;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Hero Section Styles */
+.heroContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-left: 176px;
+  margin-right: 197px;
+}
+
+.heroImage {
+  width: 467px;
+  height: 332px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  margin-right: 32px;
+}
+
+.heroContent {
+  width: 408px;
+}
+
+.heroTitle {
+  color: #0c161c;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 38px;
+}
+
+.heroSubtitle {
+  color: #0c161c;
+  font-size: 16px;
+  margin-bottom: 42px;
+}
+
+.getStartedButton {
+  background-color: #2b99e2;
+  border-radius: 12px;
+  padding: 19px 24px;
+  text-decoration: none;
+}
+
+.getStartedButtonText {
+  color: #f7f9f9;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Section Styles */
+.section {
+  padding: 25px 16px;
+  margin: 0 160px;
+}
+
+.sectionTitle {
+  color: #0c161c;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+/* Footer Styles */
+.footer {
+  padding: 25px 17px;
+  margin-bottom: 45px;
+  margin: 0 160px;
+  text-align: center;
+}
+
+.footerTitle {
+  color: #0c161c;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 18px;
+}
+
+.contactButton {
+  width: 123px;
+  background-color: #2b99e2;
+  border-radius: 20px;
+  padding: 14px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.footerText {
+  color: #09132e;
+  font-size: 14px;
+}

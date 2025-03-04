@@ -1,0 +1,163 @@
+.signup-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.backButton {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #2b99e2;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.backButton:hover {
+  text-decoration: underline;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.error {
+  color: #ff4d4d;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.accountTypeContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.accountTypeButton {
+  flex: 1;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+  margin: 0 5px;
+}
+
+.accountTypeButton.active {
+  background-color: #2b99e2;
+  color: #fff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.inputContainer {
+  position: relative;
+}
+
+.inputIcon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #666;
+}
+
+.inputContainer input {
+  width: 100%;
+  padding: 10px 10px 10px 35px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.signUpButton {
+  padding: 10px;
+  background-color: #2b99e2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signUpButton:hover {
+  background-color: #1e7bb8;
+}
+
+.orText {
+  font-size: 14px;
+  color: #666;
+  margin: 10px 0;
+}
+
+.googleButton {
+  padding: 10px;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.googleButton:hover {
+  background-color: #f0f0f0;
+}
+
+.footer {
+  font-size: 14px;
+  color: #666;
+}
+
+.footer a {
+  color: #2b99e2;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .signup-container {
+    padding: 15px;
+  }
+
+  .accountTypeButton {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .inputContainer input {
+    font-size: 12px;
+    padding-left: 30px;
+  }
+
+  .signUpButton,
+  .googleButton {
+    font-size: 14px;
+  }
+}

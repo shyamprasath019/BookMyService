@@ -1,0 +1,33 @@
+/* Why Choose Section Styles */
+.whyChooseContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  
+  .whyChooseCard {
+    width: 223px;
+    background-color: #f7f9f9;
+    border: 1px solid #d1dde5;
+    border-radius: 8px;
+    padding: 17px 18px 35px;
+    text-align: center;
+  }
+  
+  .whyChooseIcon {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .whyChooseCardTitle {
+    color: #0c161c;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 9px;
+  }
+  
+  .whyChooseCardDescription {
+    color: #4f7a93;
+    font-size: 14px;
+  }

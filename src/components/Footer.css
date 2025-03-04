@@ -1,0 +1,37 @@
+/* Footer Styles */
+.footer {
+    padding: 25px 17px;
+    margin: 0 160px;
+    text-align: center;
+    background-color: #f7f9f9;
+    border-top: 1px solid #d1dde5;
+  }
+  
+  .footerTitle {
+    color: #0c161c;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 18px;
+  }
+  
+  .contactButton {
+    width: 123px;
+    background-color: #2b99e2;
+    border-radius: 20px;
+    padding: 14px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin: 20px 0;
+  }
+  
+  .contactButton:hover {
+    background-color: #1e7bb8;
+  }
+  
+  .footerText {
+    color: #09132e;
+    font-size: 14px;
+  }

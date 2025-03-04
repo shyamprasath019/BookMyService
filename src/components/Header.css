@@ -1,0 +1,71 @@
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 52px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 12px;
+}
+
+.navTitle {
+  color: #0c161c;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 4px;
+  flex: 1;
+}
+
+.navLinks {
+  display: flex;
+  gap: 38px;
+}
+
+.navLink {
+  color: #0c161c;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  color: #4a90e2;
+}
+
+.loginButton {
+  width: 84px;
+  background-color: #2b99e2;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #f7f9f9;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.loginButton:hover {
+  background-color: #1e7bb8;
+}
+
+.profileIcon {
+  width: 40px;
+  height: 40px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.profileIcon:hover {
+  background-color: #e0e0e0;
+}
+
+.loading {
+  font-size: 16px;
+  color: white;
+}
